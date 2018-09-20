@@ -1,0 +1,16 @@
+/*Matthew Osborne 
+ * ISC4U
+ * September 18 2018
+ * 
+ * Brief Description:
+ * a program that prompts the user for their name, age, and address, and then outputs this information using one or two 
+ * nicely formatted sentences.
+ * */
+
+import java.io.*;
+class Highscore
+{
+ public static void main(String[] args)
+ {
+ InputStreamReader inStream = new InputStreamReader(System.in);
+ BufferedReader bufRead = new BufferedReader(inStream);
